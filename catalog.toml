@@ -1,0 +1,12 @@
+[[plugin]]
+id           = "local/rclone-status"
+name         = "Rclone Status"
+version      = "1.0.0"
+author       = "local"
+license      = "MIT"
+icon         = "cloud"
+description  = "Top bar rclone mount/remote status indicator with dropdown controls and quick Rclone Control launch."
+deprecated   = false
+plugin_api   = 45
+tags         = ["cloud", "rclone", "mounts", "bar", "panel"]
+dependencies = ["rclone"]
